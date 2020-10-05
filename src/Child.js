@@ -62,7 +62,7 @@ function Child() {
             </ul>
 
             <h4>Add New Transaction</h4>
-
+            <p className="instructions">Add Income using "+" and Expense using "-" sign.</p>
             <form className="transaction-form" onSubmit={handleSubmit}>
                 <label>
                     <input type="text" placeholder="Enter the Descriptions" value={newDesc} required onChange={(e) => setNewDesc(e.target.value)}/>
